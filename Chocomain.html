@@ -9,27 +9,132 @@
 
 <body>
 
-    <h2>Enter your contact details</h2>
-    <a href="https://www.google.com/">Push Here </a>
-    <ul>
-        <li>T-shirtco
-            <ol>
-                <li>hhhhh</li>
-                <li>ghfjrtn</li>
-            </ol>
-        </li>zdf
-        <li>sandco</li>
-        <li>Chocotco</li>
-    </ul>
-
-    <form id="form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
+    <!--Form Login-in-->
+    <form action="/login"> <!--action destination of the button-->
+        <label for="name">Username:</label>
+        <input type="text" id="username" name="username" placeholder="username">
 
         <br><br>
-        <label for="email">Email Address</label>
-        <input type="text" Id="email" email="email">
+        <label for="password">password</label>
+        <input type="text" Id="password" passaword="password" placeholder="password">
+
+        <br><br>
+        <label for="button">Click</label>
+        <input type="button" value="button">
+        <br><br>
+        <button>Submit</button>
+        <br><br>
+        <!--form search leading a website-->
+        <form action="https://www.youtube.com/results">
+            <input type="text" name="search_query">
+            <button>Search youtube</button>
+        </form>
+        <!--it will be the banner-->
+        <h2>Enter your contact details</h2>
+        <a href="https://www.google.com/">Push Here </a>
+        <ul>
+            <li>T-shirtco
+                <ol>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                    <li>Menbers</li>
+                    <li>Log in</li>
+                </ol>
+            </li>zdf
+            <li>sandco</li>
+            <li>Chocotco</li>
+        </ul>
+
+        
+            <!--about me-->
+
+            
+            <h1>Abaut me</h1>
+            <img src="aboutme.jpg" alt="about me" width="200" height="200">
+            <p>
+            I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just
+            click “Edit Text” or double click me to add your own content and make changes
+            to the font. I’m a great place for you to tell a story and let your users know a little
+            more about you.
+            </p>
+            <a href="file:///C:/dummy?name=jjjjjjjj&issues=">
+                <button>Read more</button>
+            </a>
+         
+
+       
+
+
+
     </form>
+    <!--Calendar-->
+    <div class="calendar">
+        <div class="header">
+            <button class="preBtrn" id="preBtrn">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="monthYear" id="monthYear"></div>
+            <button>
+                <i class="fa-soild fa-chevron-right"></i>
+            </button>
+        </div>
+        <div class="days">
+            <div class="day">mon</div>
+            <div class="day">thur</div>
+            <div class="day">wed</div>
+            <div class="day">tus</div>
+            <div class="day">fri</div>
+            <div class="day">sat</div>
+            <div class="day">sun</div>
+            <div class="dates" id="dates"></div>
+        </div>
+
+        <table>
+            <h1> love main clients</h1>
+            <thead>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Imagen1</td>
+                    <td>Imagen1</td>
+                </tr>
+                <tr>
+                    <td>Imagen2</td>
+                    <td>Imagen2</td>
+                </tr>
+                <tr>
+                    <td>imagen3</td>
+                    <td>imagen3</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+
+        <!--Contact-->
+        <form action="/dummy">
+            <h1>Contact</h1>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="name" minlength="5" maxlength="20" required>
+            <p>
+                <label for="email">Email</label>
+                <input type="text" id="email" email="email" placeholder="writing" required>
+            </p>
+            <label for="issues">Type your message here...</label>
+            <textarea id="issues" rows="5" cols="10" name="issues" placeholder="Type your message here..."></textarea>
+            <button>Submit</button>
+        </form>
+
+
+
 
 </body>
 
