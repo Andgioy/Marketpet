@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,17 +10,44 @@
 <body>
 
     <h1>Registrtion</h1>
-        <form action="">
+    <form action="/yummy">
+        <div>
+            <br><br>
             <label form="Fname">Full Name</label>
-            <input type="text" id="Fname" Fname="fname" placeholder="Full name">
+            <input type="text" id="Fname" Fname="fname" placeholder="Full name" required>
 
             <label form="Lsurname">Last Surname</label>
-            <input type="text" id="Lsurname" surname="Lsurname" placeholder="Full surname">
+            <input type="text" id="Lsurname" surname="Lsurname" placeholder="Full surname" required>
+
+            <br><br>
 
             <label form="email">Email</label>
-            <input type="text" id="email" surname="email">
-        </form>
-    
-    
+            <input type="text" id="email" surname="email" required>
+
+            <label form="Rpassaword">password</label>
+            <input type="text" id="Rpassaword" Rpassword="Rpassaword" required>
+
+            <label form="Cpassaword">Confirmation Password</label>
+            <input type="text" id="Cpassaword" Rpassword="Cpassaword" required>
+
+            <br><br>
+
+            <label form="Abutton"></label>
+            <input type="button" id="Abutton" value="Apply">
+        </div>
+        <br><br>
+        <div>
+            <label for="buttonR"></label>
+            <input type="button" id="buttonR" value="Main page">
+            <button>Submit</button>
+        </div>
+
+
+
+
+    </form>
+
+
 </body>
+
 </html>
