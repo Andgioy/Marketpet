@@ -43,14 +43,24 @@ border-radius: 3px;
     margin-right: 5px;
 }
 
-.container
+.petcare
 {
     background-color: #e6ceae;;
     
 }
-.container div 
+.petcare h1 
 {
 
     text-align: left;
 
+}
+.petcare p
+{
+text-align:right
+}
+.petcare img
+{
+    
+    width: 400px; ;
+    height: 400px;
 }
