@@ -1,17 +1,16 @@
-*
-{
+* {
     padding: 0;
     margin: 0;
 }
 
-body
-{
+body {
     background-color: white;
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 .menubar {
     background-color: #e6ceae;
     text-align: center;
@@ -33,34 +32,37 @@ body
     text-decoration: none;
     color: #1b28e2;
 }
-.active,.menubar ul li:hover
-{
-background:#e6ceae;
-border-radius: 3px;
+
+.active,
+.menubar ul li:hover {
+    background: #e6ceae;
+    border-radius: 3px;
 }
-.menubar
-{
+
+.menubar {
     margin-right: 5px;
 }
 
-.petcare
-{
-    background-color: #e6ceae;;
-    
+.petcare {
+    background-color: #e6ceae;
+    ;
+
 }
-.petcare h1 
-{
+
+.petcare h1 {
 
     text-align: left;
+    font-weight: 600;
+    text-decoration: #1b28e2;
 
 }
-.petcare p
-{
-text-align:right
+
+.petcare p {
+    text-align: right
 }
-.petcare img
-{
-    
-    width: 400px; ;
+
+.petcare img {
+
+    width: 400px;
     height: 400px;
 }
