@@ -13,7 +13,7 @@ body
     font-family: sans-serif;
 }
 .menubar {
-    background-color: rgb(35, 223, 18);
+    background-color: #e6ceae;
     text-align: center;
 }
 
@@ -31,10 +31,14 @@ body
 
 .menubar ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #1b28e2;
 }
 .active,.menubar ul li:hover
 {
-background:#ab670d;
+background:#e6ceae;
 border-radius: 3px;
+}
+.menubar
+{
+    margin-right: 8px;
 }
