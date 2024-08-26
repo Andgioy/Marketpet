@@ -19,7 +19,7 @@ body {
 .menubar ul {
     display: inline flex;
     list-style: none;
-    color: #fff;
+    color: #f30d0d;
 }
 
 .menubar ul li {
@@ -35,12 +35,12 @@ body {
 
 .active,
 .menubar ul li:hover {
-    background: #fcd9ac;
-    border-radius: 3px;
+    background: #dd0ce4;
+    border-radius: 50%;
 }
 
 .menubar {
-    margin-right: 5px;
+    margin-right: 1px;
 }
 
 .petcare {
@@ -54,22 +54,22 @@ body {
 
     text-align: left;
     font-weight: 800;
-    color: rgb(18, 224, 70);
+    color:#2d338a;
 
 }
 
 .petcare p {
 
     text-align: left;
-    color: #000dc5;
+    color: #2d338a;
 }
 
 .petcare img {
     position: absolute;
     top:auto;
-    right: 400px; 
-    width: 50px;
-    height: 50px;
+    right:50%; 
+    width: 200px;
+    height: 200px;
     border-radius: 50%
 
   }
