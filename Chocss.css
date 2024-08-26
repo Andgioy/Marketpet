@@ -45,24 +45,27 @@ body {
 
 .petcare {
     background-color: #e6ceae;
-    ;
-
 }
 
 .petcare h1 {
 
     text-align: left;
     font-weight: 800;
-    color: aqua;
+    color: rgb(18, 224, 70);
 
 }
 
 .petcare p {
 
-    text-align: right;
-    color: #1b28e2;
+    text-align: left;
+    color: #000dc5;
 }
 
-.img{
-    border-radius: 50%;
-}
+.petcare img {
+    position: absolute;
+    right: 5px; ;
+    width: 50%;
+    height: 50%;
+    border-radius: 80%;
+
+  }
