@@ -44,7 +44,9 @@ body {
 }
 
 .petcare {
-    background-color: #e6ceae;
+    background-color: #810f69;
+    background-size: cover;
+    
 }
 
 .petcare h1 {
@@ -63,9 +65,9 @@ body {
 
 .petcare img {
     position: absolute;
-    right: 5px; ;
-    width: 50%;
-    height: 50%;
-    border-radius: 80%;
+    top:auto;
+    right: 400px; 
+    width: 50px;
+    height: 50px;
 
   }
