@@ -35,7 +35,7 @@ body {
 
 .active,
 .menubar ul li:hover {
-    background: #e6ceae;
+    background: #fcd9ac;
     border-radius: 3px;
 }
 
@@ -44,8 +44,9 @@ body {
 }
 
 .petcare {
-    background-color: #810f69;
+    background-color: #fcd9ac;
     background-size: cover;
+    background-position: center;
     
 }
 
@@ -69,5 +70,6 @@ body {
     right: 400px; 
     width: 50px;
     height: 50px;
+    border-radius: 50%
 
   }
