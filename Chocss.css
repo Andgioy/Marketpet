@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.menubar {
+    background-color: #e6ceae;
+    text-align: center;
+}
+
+.menubar ul {
+    display: inline flex;
+    list-style: none;
+    color: #f30d0d;
+}
+
+.menubar ul li {
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: #1b28e2;
+}
+
+.active,
+.menubar ul li:hover {
+    background: #dd0ce4;
+    border-radius: 50%;
+}
+
+.menubar {
+    margin-right: 1px;
+}
+
+.petcare {
+    background-color: #fcd9ac;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.petcare h1 {
+
+    text-align: left;
+    font-weight: 800;
+    color:#2d338a;
+
+}
+
+.petcare p {
+
+    text-align: left;
+    color: #2d338a;
+}
+
+.petcare img {
+    position: absolute;
+    top:auto;
+    right:50%; 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%
+
+  }
