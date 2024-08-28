@@ -91,8 +91,9 @@ body {
 }
 
 .info {
-    margin: 32rem 32rem 32rem 32rem;
+    margin: 100px 150px 800px 80px;
     padding: 5px;
+    background-color: lightblue;
     border: 1px solid black;
 }
 
