@@ -106,11 +106,16 @@ font-family: "Poppins", sans-serif;
 }
 
 .service{
-    margin:16rem;
+    display: flex;
+    padding: 5px;
+
+
     
 }
 
-.service ul {
-  display: inline-flex;
-  list-style-image: url('aboutme.jpg');
+
+.service column {
+    display:inline-flex;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
