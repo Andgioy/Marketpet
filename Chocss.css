@@ -91,11 +91,13 @@ body {
 }
 
 .info {
-    margin: 16rem;
+    margin: 32rem 32rem 32rem 32rem;
+    padding: 5px;
+    border: 1px solid black;
 }
 
 .info h1 {
-    text-align: center;
+    text-align:center;
     font-size: 8rem;
     color: blue;
     font-family: "Poppins", sans-serif;
@@ -116,7 +118,7 @@ body {
 }
 
 .service {
-    margin: 2rem;
+    margin: 8rem;
     padding: 5px;
     border: 1px solid black;
 }
