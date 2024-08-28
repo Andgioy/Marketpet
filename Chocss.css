@@ -82,7 +82,7 @@ body {
         border-radius: 50%
     }
     .info{
-        margin: 2rem;
+        margin: 16rem;
     }
 
 .info h1{
@@ -105,12 +105,13 @@ font-family: "Poppins", sans-serif;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.service{
-    margin: 16rem;
+.svtable{
+    margin:16rem;
+    border: spacing 40px;
+    
 }
-.service ul{
-    display: inline-flex;
-    list-style: none;
-    color: #09f1a4;
-   
+
+.svtable tr {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
