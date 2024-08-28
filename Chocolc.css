@@ -1,7 +1,7 @@
 .work {
     margin: 2rem;
-    padding: 16rem;
-    border: 1px solid black;
+    padding: auto;
+    border: 1px  fle;
     display: inline-flex;
 }
 
@@ -9,7 +9,7 @@
 
     
 
-    text-align: center;
+    text-align: left;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(255, 38, 0);
 
