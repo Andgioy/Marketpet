@@ -119,3 +119,11 @@ font-family: "Poppins", sans-serif;
     font-family: Arial, Helvetica, sans-serif;
 
 }
+ .img{
+    width: 100%;
+ }
+.love{
+    display: flex;
+    padding: 8px;
+}
+
