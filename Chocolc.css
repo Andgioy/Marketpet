@@ -1,22 +1,25 @@
-.love {
-    margin: 26rem;
-    border: px solid color(black);
-    padding: 50px;
+.work {
+    margin: 8rem;
+    padding: 8rem;
+    border: 1px solid black;
     display: flex;
     
+
+
 }
 
-.love h1 {
+.work h1 {
 
-
+    color: rgb(255, 38, 0);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    
+
 }
 
-.love img{
+.work img {
 
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+
 }
