@@ -1,0 +1,24 @@
+.work {
+    margin: 2rem;
+    padding: auto;
+    /*border: 1px  fle;*/
+    display: inline-flex;
+}
+
+.work h1 {
+
+    
+
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 38, 0);
+
+}
+
+.work img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
