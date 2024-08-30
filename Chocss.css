@@ -60,23 +60,25 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
 
 }
 
 .petcare h1 {
 
     position: relative;
+    left: 100px;
     text-align: justify;
     font-size: 8rem;
     color: #2d338a;
     font-family: "Poppins", sans-serif;
-
+    border: #1be235 solid;
 }
 
 .petcare p {
     /*border,style,colour */
 
-
+   border: #e21b46 solid;
     color: #2d338a;
     font-family: 'arial', sans-serif;
 }
