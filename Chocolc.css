@@ -1,7 +1,10 @@
 .info {
 
 
-    margin: 2px;
+    margin-top: 2px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    margin-left: 2px;
     background-color: rgb(227, 208, 208);
     border: 1px solid green;
     width: 100%;
@@ -23,10 +26,10 @@
 
 .info img {
 
-    align-self: center;
+    align-self:auto;
     margin-left: 25%;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%
 }
 
@@ -39,7 +42,9 @@
     width: 200px;
     text-align: center;
 }
-.p :nth-child(1)
+.p :nth-last-of-type(2){
+    align-self: center;
+}
 
 
 .work {
