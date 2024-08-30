@@ -79,6 +79,7 @@ body {
     /*border,style,colour */
 
    border: #e21b46 solid;
+   text-align: center;
     color: #2d338a;
     font-family: 'arial', sans-serif;
 }
