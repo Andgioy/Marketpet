@@ -18,13 +18,6 @@
     font-size: 100px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(27, 27, 228);
-
-    margin-top: 2px;
-    margin-right: 2px;
-    margin-bottom: 200px;
-    margin-left: 2px;
-    background-color: rgb(227, 208, 208);
-    border: 1px solid green;
 }
 
 .info h1 {
@@ -53,26 +46,7 @@
     margin-right: auto;
     width: 200px;
     text-align: center;
-
-    position: relative;
-    left: 20px;
-    bottom: -50px;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%
-    
 }
-
-.info p {
-    position: relative;
-    text-align: justify;
-    width: 150px;
-    top: -250px;
-    left: 500px;
-
-
-}
-
 
 .work {
     margin: 16rem
