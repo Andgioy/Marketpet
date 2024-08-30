@@ -1,5 +1,6 @@
 .info {
 
+<<<<<<< HEAD
     margin: 2px, 2px, 5px, 2px;
     background-color: rgb(227, 208, 208);
     border: 1px solid green;
@@ -17,10 +18,26 @@
     font-size: 100px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(27, 27, 228);
+=======
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 200px;
+    margin-left: 2px;
+    background-color: rgb(227, 208, 208);
+    border: 1px solid green;
+}
+
+.info h1 {
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+>>>>>>> f8413e1010f0027154395f0bf16ddddcf46286f8
 }
 
 .info img {
 
+<<<<<<< HEAD
     align-self: center;
     margin-left: 25%;
     width: 300px;
@@ -36,6 +53,24 @@
     margin-right: auto;
     width: 200px;
     text-align: center;
+=======
+    position: relative;
+    left: 20px;
+    bottom: -50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%
+    
+}
+
+.info p {
+    position: relative;
+    text-align: justify;
+    width: 150px;
+    top: -250px;
+    left: 500px;
+
+>>>>>>> f8413e1010f0027154395f0bf16ddddcf46286f8
 
 }
 
