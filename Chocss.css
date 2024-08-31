@@ -48,43 +48,22 @@ body {
 }
 
 .petcare {
-    margin: 2px;
-    background-color: wheat;
+    max-width: 100%;
+    margin: auto;
     display: flex;
-    flex-direction: column;
-
+    background-color: wheat;
 
 }
 
-.petcare h1 {
+.contepet{
 
-    font-size: 8rem;
-    color: #2d338a;
-    font-family: "Poppins", sans-serif;
-    border: #1be235 solid;
-    line-height: 80%;
-   text-align: center;
-   width: 100px;
+    width: 50%;
+    display: flex;
 }
 
+.imgpetc{
 
-.petcare p {
-    /*border,style,colour */
-
-    border: 1px #e21b46 solid;
-    text-align: center;
-    color: #2d338a;
-    font-family: 'arial', sans-serif;
-}
-
-.petcare img {
-
-    align-self:center;
-    margin-left: 40%;
-    width: 30rem;
-    height: 30rem;
-    border: 1px solid rgb(8, 253, 196);
-    border-radius: 50%
+ border-radius: 25px;
 }
 
 
