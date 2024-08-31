@@ -48,6 +48,7 @@ body {
 }
 
 .petcare {
+    width: 98%;
     max-width: 100%;
     margin: auto;
     display: flex;
@@ -55,16 +56,21 @@ body {
 
 }
 
-.contepet{
+.contepet {
 
-    width: 50%;
+    width: 60%;
     display: flex;
+    gap: 20px;
 }
 
-.imgpetc{
-
- border-radius: 25px;
+.imgpetc {
+    min-height: 200%;
+    border-radius: 70%;
+    background-size: cover;
+    background-position: center;
 }
+
+.textpet {}
 
 
 .service {
